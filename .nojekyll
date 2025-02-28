@@ -1,0 +1,4 @@
+touch .nojekyll
+git add .nojekyll
+git commit -m "Desativando Jekyll para evitar exclusão de arquivos com _"
+git push origin main
