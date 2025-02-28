@@ -1,0 +1,30 @@
+html, body {
+    height: 100%; /* Garante que tanto o <html> quanto o <body> ocupem 100% da altura da janela */
+    margin: 0;    /* Remove margens padrão do navegador */
+    padding: 0;   /* Remove espaçamentos padrão do navegador */
+    overflow: hidden; /* Remove qualquer barra de rolagem */
+}
+
+body {
+    background-image: url('background.jpeg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área visível */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+}
+@media (max-width: 768px) {
+    .seu-elemento {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+        a {
+            font-size: 24px; /* Define o tamanho da fonte */
+            color: white; /* Define a cor branca */
+            text-decoration: none; /* Remove o sublinhado */
+        }
+        a:visited {
+            color: white; /* Mantém a cor branca após o clique */
+        }
+        a:hover {
+            color: lightgray; /* (Opcional) Altera a cor ao passar o mouse */
+        }
