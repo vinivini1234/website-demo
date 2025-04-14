@@ -12,18 +12,19 @@
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
 <title>TUBO_DE_RAIO_X</title>
-<link rel="stylesheet" href="styles.css">
 <!-- write your code here -->
 <style>
+  body {
+	overflow:hidden;
+  }
   #animation_container, #_preload_div_ {
 	position:absolute;
 	margin:auto;
-	left:0;right:0;
-	top:0;bottom:0;
+	top:-100%;bottom:-100%;
   }
 </style>
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
-<script src="TUBO_DE_RAIO_X.js?1740777335701"></script>
+<script src="TUBO_DE_RAIO_X.js?1744636789753"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -65,7 +66,7 @@ function handleComplete(evt,comp) {
 		createjs.Ticker.addEventListener("tick", stage);
 	}	    
 	//Code to support hidpi screens and responsive scaling.
-	AdobeAn.makeResponsive(true,'height',true,2,[canvas,preloaderDiv,anim_container,dom_overlay_container]);	
+	AdobeAn.makeResponsive(true,'both',true,2,[canvas,preloaderDiv,anim_container,dom_overlay_container]);	
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
@@ -78,6 +79,6 @@ function handleComplete(evt,comp) {
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1400px; height:700px; position: absolute; left: 0px; top: 0px; display: none;">
 		</div>
 	</div>
-    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:700px; width: 1400px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif style='vertical-align: middle; max-height: 100%'/></div>
+    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:700px; width: 1400px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1744636789753 style='vertical-align: middle; max-height: 100%'/></div>
 </body>
 </html>
