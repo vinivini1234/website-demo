@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background-image: url('background.jpeg'); /* Substitua pelo caminho da sua imagem */
+    background-image: url('background.png'); /* Substitua pelo caminho da sua imagem */
     background-size: cover; /* Faz a imagem cobrir toda a área visível */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     background-position: center; /* Centraliza a imagem */
@@ -27,4 +27,5 @@ body {
         }
         a:hover {
             color: lightgray; /* (Opcional) Altera a cor ao passar o mouse */
+
         }
