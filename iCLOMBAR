@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incidências de Coluna Lombar</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* ESTILOS ESPECÍFICOS PARA O VISUALIZADOR */
+        #viewer-container {
+            position: absolute;
+            top: 118px; /* Compensa as barras fixas */
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 10;
+        }
+        
+        #embedded-human {
+            width: 100%;
+            height: 100%;
+            min-height: 600px;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- As barras são criadas automaticamente pelo styles.css -->
+    
+    <!-- Visualizador 3D -->
+    <div id="viewer-container">
+https://human.biodigital.com/viewer/?id=6QzV&ui-anatomy-descriptions=true&ui-anatomy-pronunciations=true&ui-anatomy-labels=true&ui-audio=true&ui-chapter-list=false&ui-fullscreen=true&ui-help=true&ui-info=true&ui-label-list=true&ui-layers=true&ui-skin-layers=true&ui-loader=circle&ui-media-controls=full&ui-menu=true&ui-nav=true&ui-search=true&ui-tools=true&ui-tutorial=false&ui-undo=true&ui-whiteboard=true&initial.none=true&disable-scroll=false&uaid=MECyC&lang=pt&paid=o_151f821d</body>
+</html>
